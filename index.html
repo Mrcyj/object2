@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+    function cats(Certificate,Retailprice,Instructions){
+        var Ferrari=new Object();
+            Ferrari.certificate=Certificate;
+            Ferrari.retailprice=Retailprice;
+            Ferrari.instructions=Instructions;
+            Ferrari.say=function(){
+              alert(this.certificate)
+            }
+        return Ferrari
+    }
+    var ferl=new cats("合格证","零售价1元","贼强的发动机")
+    console.log(ferl.certificate+ferl.retailprice+ferl.instructions)
+
+</script>
+</html>
